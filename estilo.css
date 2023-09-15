@@ -53,7 +53,7 @@
     border-radius: 10px;
     border: none;
     transition: 1s;
-    background-color: #d68771;
+    background-color: #675167;
     color: #fff;
     cursor: pointer;
   }
@@ -63,3 +63,16 @@
     background-color: #6A473D;
   }
   
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #a17da0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; 
+  }
+
+  .card:hover {
+    background-color: #c9bac9; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+  }
