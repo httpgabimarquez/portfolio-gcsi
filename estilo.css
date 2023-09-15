@@ -57,6 +57,11 @@
     color: #fff;
     cursor: pointer;
   }
+
+  .img{
+    height: 100px;
+    width: 10px;
+  }
   
   .btn:hover {
     transition: 1s;
